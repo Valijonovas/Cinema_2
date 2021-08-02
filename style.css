@@ -1,0 +1,20 @@
+.head2{
+    background: url(green.png);
+    
+}
+.head3{
+    text-align: left;
+}
+.head1{
+    display: flex;
+}
+.box{
+    display: flex;
+}
+.box2{
+    display: flex;
+}
+.box2 div{
+    width: 20%;
+    margin: 50px;
+}
