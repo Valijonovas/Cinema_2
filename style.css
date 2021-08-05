@@ -1,20 +1,25 @@
-.head2{
+.head2 {
     background: url(green.png);
-    
+
 }
-.head3{
+
+.head3 {
     text-align: left;
 }
-.head1{
+
+.head1 {
     display: flex;
 }
-.box{
+
+.box {
     display: flex;
 }
-.box2{
+
+.box2 {
     display: flex;
 }
-.box2 div{
+
+.box2 div {
     width: 20%;
     margin: 50px;
 }
