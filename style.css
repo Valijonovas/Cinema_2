@@ -338,6 +338,11 @@
      font-size: 20px;
      font-weight: 600px;
  }
+ .head_tr a{
+color: white;
+text-decoration: none;
+vertical-align: top;
+ }
 
  #table {
      width: 80%;
