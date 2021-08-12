@@ -7,41 +7,44 @@
      font-family: 'IBM-Plex-sans';
      src: url(/Fonts/IBMPlexSans-Medium.ttf);
      font-style: normal;
+     font-weight: 500;
  }
 
  @font-face {
      font-family: 'IBM-Plex-sans';
      src: url(/Fonts/IBMPlexSans-Regular.ttf);
      font-style: normal;
+     font-weight: 400;
  }
 
  @font-face {
      font-family: 'IBM-Plex-sans';
      src: url(/Fonts/IBMPlexSans-SemiBold.ttf);
      font-style: normal;
+     font-weight: 600;
  }
 
  @font-face {
      font-family: 'IBM-Plex-sans';
      src: url(/Fonts/IBMPlexSans-Thin.ttf);
      font-style: normal;
+     font-weight: 100;
  }
 
- @font-face {
-     font-family: 'IBM-Plex-sans';
-     src: url(/Fonts/IBMPlexSans-Bold.ttf);
-     font-style: normal;
- }
 
  @font-face {
      font-family: 'IBM-Plex-sans';
      src: url(/Fonts/IBMPlexSans-Light.ttf);
      font-style: normal;
+     font-weight: 300;
  }
 
- head,
  body {
      font-family: 'IBM-Plex-sans';
+ }
+ .img_1 {
+     height: 269px;
+     width: 391px;
  }
 
  .text2 {
@@ -51,7 +54,7 @@
  .head2 {
      background: url(photos/back.png) no-repeat center/cover;
      position: relative;
-     height: 500px;
+     height: 1125px;
      margin-bottom: 150px;
  }
 
@@ -71,20 +74,31 @@
 
  .nav__box {
      margin-left: 50px;
+     margin-top: 50px;
  }
 
  .welcome {
      border: 1px solid white;
-     width: 330px;
      background: white;
-     text-align: center;
+     text-align:start;
      margin-left: 900px;
      color: white;
      position: absolute;
      bottom: -50px;
      color: black;
      right: 50px;
-     border-radius: 10%;
+     border-radius: 10px;
+     width: 600px;
+     padding: 15px;
+     margin-right: 200px;
+     font-size: 15px;
+     box-shadow: 10px 5px 5px #a2cc4059;
+     height: 250px;
+ }
+ 
+ .menu_mar li {
+     margin: 15px;
+     font-size: 22px;
  }
 
  .box1 {
@@ -327,7 +341,7 @@
      text-align: start;
  }
 
- .Session  {
+ .Session {
      text-align: start;
  }
 
@@ -354,7 +368,7 @@
      border-collapse: collapse;
  }
 
-.two {
+ .two {
      background-color: #6c6c6c;
      font-size: 14px;
  }
