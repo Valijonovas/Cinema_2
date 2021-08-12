@@ -73,7 +73,7 @@
      margin-left: 50px;
  }
 
- .innopolis_info11 {
+ .welcome {
      border: 1px solid white;
      width: 330px;
      background: white;
@@ -165,7 +165,7 @@
      margin: 20px;
  }
 
- .box5 {
+ .Reviews {
      background: url(photos/Group\ 29) no-repeat center/cover;
      margin-top: 150px;
      justify-content: center;
@@ -205,7 +205,7 @@
      display: flex;
  }
 
- .head12 {
+ .contact_logo {
      width: 30%;
      color: white;
  }
@@ -327,7 +327,7 @@
      text-align: start;
  }
 
- .n_s {
+ .Session  {
      text-align: start;
  }
 
@@ -338,10 +338,11 @@
      font-size: 20px;
      font-weight: 600px;
  }
- .head_tr a{
-color: white;
-text-decoration: none;
-vertical-align: top;
+
+ .head_tr a {
+     color: white;
+     text-decoration: none;
+     vertical-align: top;
  }
 
  #table {
@@ -353,7 +354,7 @@ vertical-align: top;
      border-collapse: collapse;
  }
 
- #table tr:nth-child(even) {
+.two {
      background-color: #6c6c6c;
      font-size: 14px;
  }
@@ -362,7 +363,7 @@ vertical-align: top;
      height: 50px;
  }
 
- #table tr:nth-child(odd) {
+ .one {
      background-color: #4D4C4F;
      font-size: 14PX;
  }
@@ -391,16 +392,20 @@ vertical-align: top;
      color: white;
  }
 
+ .text2 ul {
+     list-style: none;
+ }
+
  .all_box {
      font-size: 15px;
      margin: 50px;
      margin-left: 140px;
  }
 
- .Tovar {
+ .Goods {
      margin-left: 140px;
  }
 
- .VB {
+ .film {
      margin-left: 140px;
  }
