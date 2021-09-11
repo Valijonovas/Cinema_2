@@ -1,0 +1,972 @@
+/*Fonts*/
+@font-face {
+    font-family: 'IBM-Plex-sans';
+    src: url(/Fonts/IBMPlexSans-Medium.ttf);
+    font-style: normal;
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-sans';
+    src: url(/Fonts/IBMPlexSans-Regular.ttf);
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-sans';
+    src: url(/Fonts/IBMPlexSans-SemiBold.ttf);
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'IBM-Plex-sans';
+    src: url(/Fonts/IBMPlexSans-Thin.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+
+
+@font-face {
+    font-family: 'IBM-Plex-sans';
+    src: url(/Fonts/IBMPlexSans-Light.ttf);
+    font-style: normal;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'IBM-Plex-sans';
+}
+
+/*Fonts end*/
+
+/*Global properties*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    /* max-width: 1180px;
+    margin: 0 auto;
+    box-sizing: border-box; */
+    max-width: 1180px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.section_comment {
+    font-family: 'IBM-Plex-sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 14px;
+}
+
+.section_heading {
+    font-family: 'IBM-Plex-sans';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 62px;
+    color: #A3CC40;
+
+
+}
+
+.choose_the_film {
+    margin-top: 140px;
+}
+
+/*Global ends*/
+
+/*Header*/
+.header {
+    background: url(/images/back.png) no-repeat center/cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 99%);
+    width: 100%;
+    height: 668px;
+}
+
+.innopolis_logo {
+    padding: 10px 10px 10px 10px;
+    height: 39px;
+    width: 159px;
+    margin-top: 41px;
+    margin-left: 105px;
+}
+
+.nav__box {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+li a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.menu_1 {
+    list-style: none;
+    display: flex;
+    margin-top: -55px;
+    margin-left: 303px;
+}
+
+.menu_2 {
+    list-style: none;
+    display: flex;
+    margin-left: 305px;
+    margin-top: 3px;
+
+}
+
+.main_heading {
+    font-size: 68px;
+    color: white;
+    margin-top: 142px;
+    font-weight: 100;
+    margin-left: 233px;
+
+}
+
+.main_under_heading {
+    font-size: 41px;
+    color: white;
+    margin-left: 321px;
+    font-weight: 400;
+    margin-top: 34px;
+}
+
+.link:hover {
+    color: rgb(255, 0, 119);
+    text-decoration: underline;
+    transition: 1s;
+}
+
+.Contact_call {
+    border: 1px solid white;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 6px;
+    padding: 3px 7px;
+    font-size: 12px;
+    margin-left: 35px;
+}
+
+.Contact_call:hover {
+    background-color: yellowgreen;
+    color: white;
+}
+
+.Contact_call>img {
+    padding: 5px 3px;
+}
+
+
+/*Header ends*/
+
+/*Welcome*/
+.welcome {
+    border: 1 px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 27px 39px rgba(163, 204, 64, 0.18);
+    font-size: 11px;
+    background: white;
+    color: black;
+    position: absolute;
+    width: 426px;
+    height: 221px;
+    left: 953px;
+    top: 525px;
+}
+
+.welcome h3 {
+    font-weight: 600;
+    font-size: 33px;
+    line-height: 43px;
+    margin-top: 32px;
+    margin-left: 45px;
+}
+
+.welcome p {
+    margin-left: 48px;
+    margin-top: 20px;
+}
+
+/*welcome ends*/
+
+/*Why us */
+.why_us {
+    padding: 28px 0 0 325px;
+}
+
+.why_us_cards {
+    width: 253px;
+    text-align: center;
+    margin-top: 85px;
+    margin-right: 46px;
+}
+
+.why_us_cards h3 {
+    font-family: 'IBM-Plex-sans';
+    font-weight: 600;
+    font-style: normal;
+    line-height: 26px;
+    font-size: 20px;
+    margin-top: 35px;
+    margin-bottom: 27px;
+}
+
+/*Choose film (table)*/
+.choose_film {
+    padding: 114px 0 0 140px;
+}
+
+.choose_film h2 {}
+
+/*Table*/
+.table {
+    border-collapse: separate;
+    /*collaps was removed because of it border-radius didn't work*/
+    border-spacing: 0;
+    padding-top: 45px;
+    margin-left: 97px;
+    margin-top: -70px;
+
+}
+
+th {
+    vertical-align: middle;
+}
+
+td {
+    vertical-align: middle;
+}
+
+.table_head {
+    font-family: "IBM_Plex_Sans_Semi_Bold";
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    background: #a3cc40;
+    color: #ffff;
+    text-align: left;
+    height: 45px;
+}
+
+th a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+th svg {
+    vertical-align: middle;
+}
+
+.t_body {
+    font-family: "IBM_Plex_Sans_Regular";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14.2px;
+    color: #ffff;
+}
+
+.table__text {
+    font-size: 11px;
+    text-align: center;
+    margin-left: -136px;
+    margin-top: 29px;
+}
+
+/*Styles for border-radius*/
+th.check {
+    border-radius: 10px 0 0 0;
+}
+
+th.cell_genre {
+    border-radius: 0 10px 0 0;
+}
+
+tbody tr:last-child td.cell_genre {
+    border-radius: 0 0 10px 0;
+}
+
+tbody tr:last-child td.check {
+    border-radius: 0 0 0 10px;
+}
+
+.check {
+    width: 77px;
+}
+
+.cell_session {
+    width: 234px;
+}
+
+.cell_film_name {
+    width: 240px;
+}
+
+.cell_genre {
+    width: 287px;
+}
+
+.check svg {
+    padding-left: 24px;
+}
+
+.first_row {
+    background-color: #373737;
+    height: 45px;
+}
+
+.second_row {
+    background-color: #4c4d4f;
+    height: 45px;
+}
+
+/* Подарок каждому! */
+/* .background {
+    background-image: url(/images/blach_photo2.png) no-repeat center/cover;
+    width: 100%;
+    height: 780px;
+    clip-path: polygon(0% 25%, 100% 0%, 104% 63%, 0% 84%);
+    margin-top: 115px;
+} */
+.main__center {
+    border: none;
+    text-align: start;
+    background: url(/images/blach_photo2.png) no-repeat center/cover;
+    width: 1000px;
+    position: relative;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+    height: 780px;
+    clip-path: polygon(0% 25%, 100% 0%, 104% 63%, 0% 84%);
+    margin-top: 75px;
+}
+
+.main__text {
+    margin-right: 527px;
+    margin-top: 186px;
+
+}
+
+.main_h2 {
+    font-size: 48px;
+    margin-left: -4px;
+    margin-top: -26px;
+}
+
+.main_h2 p {
+    font-size: 11px;
+    text-align: end;
+    width: 548px;
+    height: 173px;
+    margin-left: -122px;
+    margin-top: -3px;
+    Font: IBM Plex Sans;
+    font-weight: 400;
+}
+
+.podarok {
+    position: absolute;
+    top: 2185px;
+    margin-left: 530px;
+    border-radius: 50%;
+}
+
+.button {
+    background-color: #a3cc40;
+    color: white;
+    margin-top: 24px;
+    margin-left: 1185px;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 7px 36px;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Фильмы */
+.film_h2 {
+    font-size: 48px;
+    color: #A3CC40;
+    margin-top: -91px;
+    margin-left: 168px;
+}
+
+.film_text {
+    font-size: 11px;
+    font-weight: 400;
+    margin-left: 168px;
+    margin-top: 39px;
+}
+
+.films {
+    margin-left: 168px;
+    margin-top: 66px;
+}
+
+.film__img :hover {
+    background: #90D23D66;
+    color: white;
+}
+
+/* Фильмы and */
+
+/* Goods */
+.Goods_h2 {
+    font-size: 48px;
+    color: #A3CC40;
+    margin-left: 169px;
+    margin-top: 84px;
+}
+
+.goods_text {
+    font-size: 11px;
+    margin-left: 168px;
+    margin-top: 38px;
+}
+
+.card10 {
+    display: flex;
+    width: 30%;
+    margin: 20px;
+    margin-left: 160px;
+    margin-top: -1px;
+}
+
+.card__box {
+    margin: 55px;
+    margin-left: 5px;
+}
+
+.card {
+    width: 245px;
+    height: 331px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card__img {
+    width: 100%;
+    height: 100%;
+}
+
+.card__hover {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background: rgba(163, 204, 64, 0.8);
+    clip-path: polygon(0 43%, 100% 0, 100% 100%, 0% 100%);
+    width: 98%;
+    padding-top: 100px;
+    height: 153px;
+    overflow: hidden;
+    border-radius: 10px;
+    bottom: 7px;
+    text-align: center;
+}
+
+/* Goods and */
+
+.reviews {
+    background-image: url(/images/reviews_photo.jpg) no-repeat center/cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
+    height: 792px;
+    color: white;
+}
+
+.reviews_h2 {
+    font-size: 48px;
+    color: #A3CC40;
+    margin-left: 169px;
+    margin-top: 115px;
+}
+
+.reviews_p {
+    font-size: 11px;
+    font-weight: 400;
+    margin-top: 35px;
+    margin-left: 170px;
+}
+
+.boxx {
+    display: flex;
+    margin-left: 27px;
+}
+
+.boxx__1 {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 9px;
+    margin: 50px;
+    margin-left: 141px;
+    margin-top: 105px;
+}
+
+.boxx__1_b {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 9px;
+    margin: 50px;
+    margin-left: 141px;
+    margin-top: 105px;
+}
+
+.boxx__1_c {
+    background-color: yellowgreen;
+    color: white;
+    border-radius: 9px;
+    margin: 50px;
+    margin-left: 141px;
+    margin-top: 105px;
+}
+
+.boxx__1 img {
+    width: 210px;
+    height: 152.71px;
+}
+
+.reviews_h3 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.reviews_text {
+    padding: 0px 0px 18px 0px;
+}
+
+.reviews_text_b {
+    padding: 0px 0px 18px 0px;
+}
+
+/* Отзывы */
+
+.reviews__heading {
+    color: #A3CC40;
+    font-size: 48px;
+    font-weight: 500;
+    margin: 166px 0 0 124px;
+    margin-left: 168px;
+}
+
+.reviews__text {
+    font-size: 11px;
+    color: white;
+    margin: -14px 0 0 126px;
+    margin-top: 9px;
+    margin-left: 170px;
+}
+
+#reviews {
+    background: url(/images/Black_photo.png) no-repeat center/cover;
+    border: 1px solid white;
+    Height: 792px;
+    padding: 40px;
+    margin-top: -116px;
+    clip-path: polygon(0 22%, 100% 6%, 100% 90%, 0% 100%);
+}
+
+.section__photo {
+    display: flex;
+    margin-left: 127px;
+}
+
+.photo__middle {
+    display: inline-block;
+    background-color: yellowgreen;
+    color: yellowgreen;
+    width: 245.56px;
+    height: 332px;
+    color: white;
+    border-radius: 9px;
+    margin: 73px 89px 0 0px;
+    margin-top: 78px;
+}
+
+.customers__1mg {
+    width: 245.56px;
+    height: 178.54px;
+}
+
+.photo {
+    display: inline-block;
+    background-color: yellowgreen;
+    color: yellowgreen;
+    width: 210px;
+    height: 284px;
+    color: white;
+    border-radius: 9px;
+    margin: 100px 89px 0 0px;
+    margin-left: 43px;
+    margin-top: 101px;
+}
+
+.photo img {
+    width: 210px;
+    height: 152.73px;
+    display: flex;
+}
+
+.photo h4 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    margin: 14px 22px 0 16px;
+}
+
+.photo p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 13px;
+    color: #FFFFFF;
+    vertical-align: text-top;
+    width: 171px;
+    height: 52px;
+    margin: -7px 22px 0 17px;
+}
+
+.photo__middle h4 {
+    width: 220.4px;
+    height: 23.02px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 14px 8px 0 17px;
+}
+
+.photo__middle p {
+    width: 220.4px;
+    height: 42.03px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin: -2px 9px 0 17px;
+}
+
+/* Отзывы end */
+
+/* Обратная связь */
+.form_s {
+    border: none;
+    width: 767px;
+    height: 527px;
+    margin: 43px 183px 61px 174px;
+    border-radius: 20px;
+    display: flex;
+    box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
+}
+
+.img-back {
+    background: url(images/krists-luhaers-AtPWnYNDJnM-unsplash.png);
+    width: 414px;
+    height: 527px;
+    border-radius: 20px;
+}
+
+.p_form {
+    margin-left: -27px;
+}
+
+.tx_form {
+    font-size: 25px;
+    color: #A3CC40;
+    text-align: center;
+    width: 350px;
+    margin-top: 31px;
+}
+
+.full_name {
+    width: 311px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin: 15px 0 0 -66px;
+    transition: 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.full_name2 {
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background: #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15.56px;
+    padding-right: 15px;
+    padding-bottom: 87px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.option_f {
+    width: 344px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    margin-top: 33px;
+    outline: none;
+}
+
+/* footer */
+.contact_logo {
+    width: 30%;
+    color: white;
+}
+
+.img_map {
+    margin-left: 103px;
+}
+
+.text2 {
+    display: flex;
+    margin-left: 555px;
+    margin-top: -170px;
+
+}
+
+.footer_title {
+    font-size: 12px;
+    margin-left: -20px;
+
+}
+
+.footer_li {
+    font-size: 12px;
+    margin-left: 70px;
+}
+
+.footer {
+    background: yellowgreen;
+    height: 361px;
+    margin-top: -3px;
+}
+
+.contact {
+    margin: -74px 0 0 0;
+
+}
+
+.footer_contact {
+    font-size: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 95px;
+}
+
+.footer_p {
+    vertical-align: middle;
+    font-family: 'IBM Plex Sans';
+    font-weight: 400;
+    width: 269px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 120px;
+}
+
+.site_h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 700
+}
+
+/* Обратная связь */
+
+.form__section {
+    display: flex;
+    padding: 40px;
+    margin: 1px 0 0 524px;
+}
+
+.img_back {
+    background: url(/images/image_os.png)no-repeat center/cover;
+    width: 372px;
+    height: 527px;
+    border-radius: 20px 0 0 20px;
+}
+
+.img_back img {
+    width: 100%;
+    height: 100%;
+}
+
+.tx-form {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 32px;
+    margin: 33px 92px 0 0;
+}
+
+form {
+    font-size: 15px;
+    color: #A3CC40;
+    text-align: center;
+    width: 350px;
+    box-shadow: 8px 9px 39px rgba(185, 185, 185, 0.37);
+}
+
+.party_form {
+    margin-left: 46px;
+}
+
+.option_form {
+    width: 344px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin-left: -74px;
+    transition: 0.5s;
+    margin-top: 28px;
+}
+
+.option_form:hover {
+    border: 5px solid #AAF34D85;
+    background: #fff;
+    transition: 0.5s;
+}
+
+#chek__box {
+    margin-left: -136px;
+    margin-top: 16px;
+    color: #A3CC40;
+}
+
+.comment {
+    resize: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.full_name {
+    width: 330px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin: 22px 0 0 -74px;
+    transition: 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.full_name:hover {
+    border: 5px solid #AAF34D85;
+    background: #fff;
+    transition: 0.5s;
+}
+
+.email {
+    width: 330px;
+    height: 40px;
+    padding-left: 15.56px;
+    border: none;
+    color: #A1A1A1;
+    background: #DEDEDE;
+    border-radius: 5px;
+    outline: none;
+    margin-left: -75px;
+}
+
+.full_name2 {
+    color: #A1A1A1;
+    width: 314px;
+    height: 40px;
+    outline: none;
+    background: #DEDEDE;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15.56px;
+    padding-right: 15px;
+    padding-bottom: 87px;
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: -34px;
+    transition: 0.5s;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.full_name2:hover {
+    border: 5px solid #AAF34D85;
+    background: #fff;
+    transition: 0.5s;
+    font-size: 10px;
+}
+
+.chek_box {
+    font-size: 11px;
+    color: #333333;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 13px;
+}
+
+.chek__box:hover {
+    border: 2px solid lime;
+}
+
+.bt1 {
+    border: none;
+    padding: 17.87px 139.92px 13.13px 130.59px;
+    background: #A3CC40;
+    border-radius: 6px;
+    color: white;
+    font-size: 28px;
+    margin-top: 51px;
+    margin-left: -68px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.copyright {
+    margin-right: 611px;
+    color: white;
+    margin: 42px 0 0px 114px;
+}
+
+/* Обратная связь  end*/
